@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span{
+    display: none;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
